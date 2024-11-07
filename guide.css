@@ -1,0 +1,132 @@
+body{
+               margin: 0;
+               
+}
+.navbar-brand{
+               font-weight: bolder;
+               cursor: pointer;
+               color: rgb(13,110,253);
+}
+.navbar-brand:hover{
+               color: rgb(5, 77, 186);
+}
+header{
+               display: flex;
+}
+.navbar{
+               width: 100vw;
+}
+.navbar ul{
+               width: 100%;
+               display: flex;
+               justify-content: space-around;
+               align-items: center;
+               /* position: relative; */
+               /* right: 50px; */
+               
+}
+.navbar li{
+               padding-right: 2rem;
+}
+
+.content{
+               display: flex;
+               margin: 2rem;
+               flex-wrap: wrap;
+               justify-content: space-around;
+}
+.desc{        
+               margin:10px;
+               margin-top: 30px;
+               margin-right: 0;
+               width: 200px;
+               height:200px;
+               box-shadow: 0px 0px 10px ;
+               padding: 1rem;
+               text-align: justify;
+}
+/*1st box*/
+.polling-st img{
+               width: 99%;
+              
+              }
+.card{
+               background-color: #367eb98f;}
+a{
+               text-decoration: none;
+
+}
+.p-st-desc{
+               color: rgb(252, 240, 255);
+               text-align: center;
+               font-size: 1.2rem;
+               margin-top:0.5rem;
+}
+.candidates img{
+               height: 100px;
+}
+.p-cnd{
+               color: rgb(252, 240, 255);
+               text-align: center;
+               font-size: 1.2rem;
+               margin-top:0.5rem;  
+               position: relative; 
+               top:1.9rem                   
+}
+.card-title{
+               color: rgb(25, 68, 137);
+               font-size: 1.5rem;
+}
+.card-body{
+               color: rgb(252, 240, 255);
+               /* text-align: center; */
+               font-size: 1.2rem;
+               margin-top:0.5rem;
+}
+.my-card{
+               margin-top:32px;
+}
+.description{
+               color: rgb(252, 240, 255);
+               text-align: justify;
+               font-size: 1.2rem;
+               margin-top:0.5rem;
+}
+.vote{
+               margin-bottom:32px;
+               padding: 0.5rem 1rem;
+               width:fit-content;
+               
+}
+.btn1{
+               font-size: 2rem;
+}
+.container.vote {
+               position: relative;
+               animation: move 5s infinite;
+             }
+             
+             @keyframes move {
+               0% {
+                 transform: translateX(10px);
+               }
+               50% {
+                 transform: translateX(20px);
+               }
+               100% {
+                 transform: translateX(0);
+               }
+             }
+.footer{
+               height: 300px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+            }
+.line{
+        width: 90%;
+        height: 50%;
+        border-top: 1px solid white;
+        opacity: 0.4;
+    }
+

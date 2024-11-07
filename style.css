@@ -1,0 +1,125 @@
+body{
+               font-family: "Montserrat", sans-serif;
+               margin : 0;
+               background-image: url("https://www.cbse.gov.in/images//bnr8.jpg");
+               /* background-color: transparent; */
+               background-size: cover;
+}
+
+header h1{
+               font-weight: bolder;
+               cursor: pointer;
+               color: rgb(13,110,253);
+}
+header h1:hover{
+               color: rgb(5, 77, 186);
+}
+.welcome-message{
+               text-align: center;
+               font-size: 2rem;
+}
+.form-label{
+               font-size: 24px;
+}
+/*voting part html*/
+.main1{
+               margin: auto;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+
+}
+.card1 form{
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               
+}
+.st1{         
+                
+               align-self: center;
+}
+.card1{       
+               padding-top:1rem ;
+               margin-top: 5rem;
+               width: 500px;
+               border: 1px solid rgb(25, 68, 137);
+               /* height: 500px; */
+               
+}
+iframe{
+               position: absolute;
+               bottom: 0;
+               /* height:min-content */
+               left: 0;
+               width: 100%;
+               margin: 2rem;
+               margin-right: 0;
+               margin-left: 0;
+               height: 40%;
+    /* display: none; */
+
+}
+/*ash*/
+/* style.css */
+
+.chat-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-messages {
+    padding: 20px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#greeting-message {
+    background-color: #f0f0f0;
+}
+
+#response-message {
+    background-color: #fff;
+}
+
+.chat-input {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+}
+
+#user-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#send-button {
+    width: 28%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #444;
+}
+
